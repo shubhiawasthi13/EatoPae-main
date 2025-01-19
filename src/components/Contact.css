@@ -10,6 +10,7 @@ body{
 }
 .container-flex{
     width: 50%;
+    margin-top: 40px;
 }
 #rafiki-box{
     color:  rgba(100, 100, 100, 1);
@@ -67,7 +68,7 @@ label{
     color: rgba(255, 236, 132, 1);
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   padding-right: 350px;
+     padding-right: 350px;
     
 }
 .lab{

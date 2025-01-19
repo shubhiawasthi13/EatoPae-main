@@ -108,21 +108,22 @@ export default function Accordian_contact() {
       </div>
       </div>
 
-      <div className='container-flex custom_media'>
+      <div className='container-flex'>
                 <form>
                     <h4 className='Headng'>Let Us Reach You</h4>
-                    <label className='lab'>Name</label> <br/>
-                    <input placeholder='Full Name' style={{paddingLeft:"12px"}}></input> <br/><br/>
+                    <label className='lab' style={{color:"white"}}>Name</label> <br/>
+                    <input type='text' placeholder='Full Name' style={{paddingLeft:"12px"}}></input> <br/><br/>
 
-                    <label className='lab'>Email</label> <br/>
-                    <input placeholder=' your@gmail.com'style={{paddingLeft:"12px"}}></input> <br/><br/>
+                    <label className='lab'style={{color:"white"}}>Email</label> <br/>
+                    <input type='email' placeholder='your@gmail.com'style={{paddingLeft:"12px"}}></input> <br/><br/>
 
-                    <label>Phone No.</label> <br/>
-                    <input placeholder=' +91 0000000000'style={{paddingLeft:"12px"}}></input> <br/><br/>
+                    <label style={{color:"white"}}>Phone No.</label> <br/>
+                    <input type='text' placeholder='+91 0000000000'style={{paddingLeft:"12px"}}></input> <br/><br/>
 
-                    <label className='lab'>Outlet</label> <br/>
-                    <input></input> <br/><br/>
-      
+                    <label className='lab' style={{color:"white"}}>Outlet</label> <br/>
+                    <input type='text'></input> <br/><br/>
+        
+                     <br /><br />
                     <div className='sub'> <p id='Submt'>Submit</p>  </div>
                 </form>
             </div>
@@ -132,11 +133,4 @@ export default function Accordian_contact() {
   );
 }
 
-// import React from 'react'
-
-// const Accordian_contact = () => {
-//   return (
-//     <div>Accordian_contact</div>
-//   )
-// }
 

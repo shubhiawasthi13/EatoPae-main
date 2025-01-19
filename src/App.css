@@ -27,6 +27,13 @@ body{
   background-size: cover;
   
 }
+.FA .shadow{
+  background: linear-gradient(180deg, rgba(45, 45, 45, 0.00) 0%, #2A2A2A 100%);
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 910px;
+}
 .container{
   display: flex;
  
@@ -131,14 +138,14 @@ h3{
   border-color:grey;
   border-width: 1px;
   height: 64px;
-  background-color:#1C1C1C;
+  background-color:none;
   color: grey;
-  margin-left: 416px;
   text-align: center;
   padding: 20px;
+  margin-top: 35px;
 }
 #BD{
-   font-size: 22px;
+   font-size: 20px;
    color: rgba(159, 159, 159, 1);
 
 }
@@ -286,6 +293,7 @@ span{
   width: 80%;
   margin: auto;
   position: relative;
+  margin-top: 40px;
 }
 .foodsites .pattern-img{
   border-radius: 50px;
@@ -396,13 +404,11 @@ span{
     }
     #BUILD {
       width: 508px;
-      
       border-radius: 40px;
       border-style: solid;
       border-color:grey;
       border-width: 1px;
       height: 44px;
-      background-color:#1C1C1C;
       color: grey;
       margin-left: 66px;
       text-align: center;

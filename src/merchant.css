@@ -131,6 +131,7 @@ gap: 1px;
 .buttons-scroll {
     margin-top: 30px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 /* slider animation */
@@ -189,6 +190,13 @@ border: 1px solid rgba(255, 244, 184, 0.36);
 margin-left: 10px;
 
 }
+.accordian_contact{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
 @media screen and (max-width:780px) {
     .merchant-hero{
         height: 650px;
@@ -247,5 +255,12 @@ margin-left: 10px;
         padding: 10px;
         line-height: 20px;
         text-align: center;
+    }
+    .buttons-scroll .scroll-row-1{
+        animation: none;
+    
+    }
+    .buttons-scroll .scroll-row-2{
+        animation: none;
     }
 }

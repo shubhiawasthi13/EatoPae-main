@@ -94,7 +94,9 @@ function Merchant(){
             </div>
           </section>
          
+         <section className="accordian_contact">
          <Accordian_contact/>
+         </section>
 
          <Footer/>
         </>

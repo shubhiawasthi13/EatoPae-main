@@ -31,9 +31,14 @@ const App = () => {
           <FaArrowRight id='Ar' />
 
         </div>
+        <div className="shadow">
+          
+        </div>
       </div>
+<center>
+<div id='BUILD'><p id='BD'>BUILD FOR EVERY TYPE OF FOOD BUSINESSES </p></div>
+</center>
 
-      <div id='BUILD'> <p id='BD'>BUILD FOR EVERY TYPE OF FOOD BUSINESSES </p></div>
       
 
       {/* <div className='icon_container'>
