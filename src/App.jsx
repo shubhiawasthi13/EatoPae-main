@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.css'
 import { FaArrowRight } from "react-icons/fa";
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -13,10 +13,9 @@ import pattern from './assets/pattern-cut.svg'
 
 const App = () => {
   return (
-    <>
+    <section>
+    
       <div className='FA'>
-
-
         <div className='IO'>
           <h2>Reimagining dining with<br />
             <span>Intelligent Ordering</span></h2>
@@ -29,61 +28,54 @@ const App = () => {
         <div id='GSN'>
           <h4>GET STARTED TODAY</h4>
           <FaArrowRight id='Ar' />
-
+         
         </div>
         <div className="shadow">
           
         </div>
       </div>
-<center>
-<div id='BUILD'><p id='BD'>BUILD FOR EVERY TYPE OF FOOD BUSINESSES </p></div>
-</center>
+       <center>
+      <div id='BUILD'> <p id='BD'>BUILD FOR EVERY TYPE OF FOOD BUSINESSES </p></div>
+      </center>
 
-      
-
-      {/* <div className='icon_container'>
-
-
-        <div className='box'>
-          <Marquee>
-            <div>
-              <img src='carbon_cafe.png' className='icon' />
-              <h2 className='icon-text'>Cafe</h2>
-            </div>
-
-            <div>
-              <img src='ice-cream.png' className='icon-t' />
-              <h2 className='icon-text'>Icecream Parlour</h2>
-            </div>
-
-            <div>
-
-              <img src='dish.png' className='icon' />
-              <h2 className='icon-text'>Fine Dine</h2>
-            </div>
-
-            <div>
-              <img src='pizza.png' className='icon' />
-              <h2 className='icon-text'>Pizzeria</h2>
-            </div>
-
-            <div>
-              <img src='drink.png' className='icon-t' />
-              <h2 className='icon-text'>Bar & Brewery</h2>
-            </div>
-
-
-            <div>
-              <img src='Bread.png' className='icon' />
-              <h2 className='icon-text'>Bakery</h2>
-
-            </div>
-          </Marquee>
-
-
-        </div>
-      </div> */}
   
+  <br/><br/>
+  <div className="container-ico">
+  <Marquee>
+  <div className="item">
+    <img src="dish.png" alt="Cafe"/>
+    <p>Café</p>
+  </div>
+  <div className="item">
+    <img src="Bread.png" alt="Icecream"/>
+    <p>Icecream Parlor</p>
+  </div>
+  <div className="item">
+    <img src="drink.png" alt="Fine Dine"/>
+    <p>Fine Dine</p>
+  </div>
+  <div className="item">
+    <img src="pizza.png" alt="Pizza"/>
+    <p>Pizzeria</p>
+  </div>
+  <div className="item">
+    <img src="carbon_cafe.png" alt="Bar & Brewery"/>
+    <p>Bar & Brewery</p>
+  </div>
+  <div className="item">
+    <img src="ice-cream.png" alt="Bar & Brewery"/>
+    <p>Bar & Brewery</p>
+  </div>
+  {/* <div className="item">
+    <img src="chair.png" alt="Bar & Brewery"/>
+    <p>Bar & Brewery</p>
+  </div>
+  <div className="item">
+    <img src="cloud.png" alt="Bar & Brewery"/>
+    <p>Bar & Brewery</p>
+  </div> */}
+  </Marquee>
+</div>
 
 
       {/* 50-50 % dividing screen */}
@@ -94,7 +86,7 @@ const App = () => {
             <p id='p2'>A sleek, user-friendly device placed at every <br /> table, designed to enhance the dining <br /> experience. Diners can browse menus, <br /> customize orders, and place them directly <br /> without waiting for staff.</p>
             
               <center>
-              <a className='Exp-button'>  Explore More &rarr; </a>
+              <a className='Exp-button' style={{marginLeft:'-120px'}}>  Explore More &rarr; </a>
             </center>
           </div>
           <div className="content-img">
@@ -112,18 +104,22 @@ const App = () => {
 
           <div className="page-content">
             <p id='p1'>What do we offer for <br />   the<span>  admin panel</span>?</p>
-            <p id='p2'>A Powerful and intuitive tool designed to <br /> streamline restaurant operations. It <br />  enables staff to manage orders from every <br />  table in real-time, track delivery orders <br /> from third party platforms and <br />
+            <p id='p3'>A Powerful and intuitive tool designed to <br /> streamline restaurant operations. It <br />  enables staff to manage orders from every <br />  table in real-time, track delivery orders <br /> from third party platforms and <br />
               monitor payment easily.</p>
            
               <center>
                 
-                <a className='Exp-button'> &larr; Explore More </a>
+                <a className='Exp-button' style={{marginRight:'-150px'}}> &larr; Explore More </a>
                 </center></div>
           
         </div>
       </section>
 
 
+
+
+      
+      
 
 <section className="foodsites">
         <img src={pattern} alt="" className="pattern-img"/> 
@@ -158,7 +154,7 @@ const App = () => {
 
       <Footer />
 
-    </>
+    </section>
   )
 }
 
