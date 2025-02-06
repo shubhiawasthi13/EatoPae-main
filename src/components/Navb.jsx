@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Nav.css'; // Make sure to import your CSS file
 import { Outlet,Link } from 'react-router-dom';
+import Footer from '../components/Footer.jsx';
 
 const Navb = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,6 +26,7 @@ const Navb = () => {
             </div>
         </nav>
         <Outlet/>
+        <Footer/>
         </>
     );
 };

@@ -74,7 +74,6 @@ function Customer(){
     </section>
     
     {/* <Accordian/> */}
-    <Footer/>
 
  
     </>

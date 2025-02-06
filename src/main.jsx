@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navb.jsx';
 import Customer from './customer.jsx';
 import Merchant from './merchant.jsx';
+import AppDev from './Appdev.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<App />} />
           <Route path="customer" element={<Customer />} />
           <Route path="merchant" element={<Merchant/>} />
+          <Route path="appdev" element={<AppDev/>} />
           
         </Route>
       </Routes>

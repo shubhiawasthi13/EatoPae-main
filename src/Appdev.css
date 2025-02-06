@@ -1,0 +1,151 @@
+
+.appdev_hero{
+    width: 100%;
+    height: 750px;
+    background: url('./assets/appdev.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    width: 75%;
+    margin: auto;
+height: 288.044px;
+    
+}
+.content p{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #FFDD19;
+    font-family: Inter;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700; 
+   line-height: normal;
+}
+.content span{
+    color: #FFEF92;
+text-align: center;
+font-family: Inter;
+font-size: 35px;
+font-style: justify;
+font-weight: 400;
+line-height: normal;
+}
+.box-1{
+    border-radius: 20px;
+background: rgba(255, 224, 0, 0.30);
+width: 300px;
+height: 350px;
+flex-shrink: 0;
+position: absolute;
+top: 40px;
+left: -10px;
+}
+.box-2{
+    border-radius: 20px;
+background: rgba(149, 134, 52, 0.50);
+width: 300px;
+height: 229px;
+flex-shrink: 0;
+position: absolute;
+top: 180px;
+right: -10px;
+}
+.box-3{
+border-radius: 20px;
+background: rgba(255, 224, 0, 0.25);
+width: 268px;
+height: 172px;
+flex-shrink: 0;
+position: absolute;
+bottom: 70px;
+right: 120px;
+}
+.key-details{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.key-details p{
+    color: #FFDD19;
+    padding-bottom: 30px;
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.key-details span{
+    color: #FFEC84;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.dl-list{
+    padding-top: 90px;
+}
+.box{
+border-radius: 20px;
+background: rgba(255, 224, 0, 0.30);
+width: 441px;
+height: 315px;
+flex-shrink: 0;
+position: absolute;
+right: 0;
+top: 30px;
+}
+.respo-join{
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+}
+.respo-join p{
+    color: #FFDD19;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.respo-join ul li{
+    color: #FFEC84;
+    margin-left: 30px;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+list-style-type: disc;
+}
+.apply-btn{
+    margin-top: 100px;
+}
+.apply-btn p{
+color: #FFD900;
+font-family: Inter;
+font-size: 50px;
+border-radius: 20px;
+background: rgba(0, 0, 0, 0.80);
+text-align: center;
+width: 25%;
+padding: 20px 20px;
+margin: auto;
+cursor: pointer;
+}
+.border-box{
+    border-radius: 20px;
+border: 4px solid #FFDD1A;
+width: 260px;
+height: 195px;
+flex-shrink: 0;
+position: absolute;
+right: -10px;
+top: 1200px;
+}

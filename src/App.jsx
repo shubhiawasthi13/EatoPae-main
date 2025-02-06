@@ -152,8 +152,6 @@ const App = () => {
 
       <Contact />
 
-      <Footer />
-
     </section>
   )
 }
