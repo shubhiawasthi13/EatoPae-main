@@ -8,6 +8,7 @@ import Navbar from './components/Navb.jsx';
 import Customer from './customer.jsx';
 import Merchant from './merchant.jsx';
 import AppDev from './Appdev.jsx';
+import Uiux from './Uiux.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="customer" element={<Customer />} />
           <Route path="merchant" element={<Merchant/>} />
           <Route path="appdev" element={<AppDev/>} />
+          <Route path="uiux" element={<Uiux/>} />
           
         </Route>
       </Routes>
