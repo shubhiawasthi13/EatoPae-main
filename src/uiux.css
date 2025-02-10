@@ -7,13 +7,13 @@
         background-size: cover;
         position: relative;
 }
-.content{
+.uiux_hero .content{
     width: 75%;
     margin: auto;
 height: 288.044px;
     
 }
-.content p{
+.uiux_hero .content p{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 40px;
@@ -24,7 +24,7 @@ height: 288.044px;
    font-weight: 700; 
    line-height: normal;
 }
-.content span{
+.uiux_hero .content span{
     color: #FFEF92;
 text-align: center;
 font-family: Inter;
